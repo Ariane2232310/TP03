@@ -1,3 +1,9 @@
+.header
+{ 
+    display: flex;
+    flex-direction: row;
+    background-color: #2A3B7A;
+}
 body
 {
     font-family: 'McLaren', sans-serif;
