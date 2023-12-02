@@ -18,3 +18,10 @@ body
     justify-content: center;
 }
 
+.Images > div
+{
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+}
+
