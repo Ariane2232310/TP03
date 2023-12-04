@@ -1,11 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulaire d'adoption</title>
+    <link rel="stylesheet" href="Style/styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=McLaren&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <h1>Formulaire d'adoption</h1>
+<!-- Permet d'afficher le formulaire -->
+    <form>
+        <fieldset class="flex-contenant">
+            <legend>Informations personnelles</legend>
+            <div class="flex-contenant">
+                <div>
+                    <label for="firstname">Prénom :</label>
+                    <input type="text" name="firstname" id="firstname">
+                </div>
+                <div>
+                    <label for="lastname">Nom de famille :</label>
+                    <input type="text" name="lastname" id="lastname">
+                </div>
+                <div>
+                    <label for="email">Courriel :</label>
+                    <input type="text" name="email" id="email">
+                </div>
+                <div>
+                    <label for="NumPhone">Téléphone :</label>
+                    <input type="text" name="NumPhone" id="NumPhone">
+                </div>
+            </div>
+        </fieldset>   
+    </form>
 </body>
 </html>

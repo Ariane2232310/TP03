@@ -16,8 +16,7 @@ body
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 20px;
-    margin-top: 10px;
+
     padding-bottom: 10px;
     padding-top: 2px;
     max-width: 1550px;
