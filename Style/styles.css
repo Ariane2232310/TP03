@@ -148,3 +148,21 @@ label
     flex-direction: row;
     background-color: #2A3B7A;  
 }
+
+#bouton
+{ 
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    border-radius: 15px;
+    background-color: #DFBC85;
+    width: 247px;
+    height: 77px;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+h2
+{
+    text-align: center;
+}
