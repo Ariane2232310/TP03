@@ -11,9 +11,9 @@
     <h1>Formulaire d'adoption</h1>
 <!-- Permet d'afficher le formulaire -->
     <form>
-        <fieldset class="flex-contenant">
+        <fieldset class="form-flex">
             <legend>Informations personnelles</legend>
-            <div>
+            <div class="form-ligne">
                 <div>
                     <label for="firstname">Prénom :</label>
                     <input type="text" name="firstname" id="firstname">
@@ -22,6 +22,8 @@
                     <label for="lastname">Nom de famille :</label>
                     <input type="text" name="lastname" id="lastname">
                 </div>
+            </div>
+            <div class="form-ligne">
                 <div>
                     <label for="email">Courriel :</label>
                     <input type="text" name="email" id="email">
@@ -32,25 +34,27 @@
                 </div>
             </div>
         </fieldset>  
-        <fieldset class="flex-contenant">
+        <fieldset class="form-flex">
             <legend>Adoption de l'animal</legend>
-            <div class="Formulaire">
+            <div>
                 <label for="Question">Quel animal désirez-vous adopter ?</label>
-                <div>
-                    <label for="Choix">Chat</label>
-                    <input type="radio" name="Choix" value="1" id="Choix">
-                </div>
-                <div>
-                    <label for="Question">Chien</label>
-                    <input type="radio" name="Choix" value="2" id="Choix">
-                </div>
-                <div>
-                    <label for="Question">Lapin</label>
-                    <input type="radio" name="Choix" value="3" id="Choix">
-                </div>
-                <div>
-                    <label for="Question">Cochons d'indes</label>
+                <div class="Reponse">
+                    <div>
+                        <label for="Choix">Chat</label>
+                        <input type="radio" name="Choix" value="1" id="Choix">
+                    </div>
+                    <div>
+                        <label for="Question">Chien</label>
+                        <input type="radio" name="Choix" value="2" id="Choix">
+                    </div>
+                    <div>
+                        <label for="Question">Lapin</label>
+                        <input type="radio" name="Choix" value="3" id="Choix">
+                    </div>
+                    <div>
+                        <label for="Question">Cochons d'indes</label>
                     <input type="radio" name="Choix" value="4" id="Choix">
+                    </div>
                 </div>
             </div>
         </fieldset> 
