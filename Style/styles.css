@@ -140,3 +140,10 @@ label
     width: 329px;
     height: 36px;
 }
+
+.Footer
+{
+    display: flex;
+    flex-direction: row;
+    background-color: #2A3B7A;  
+}
