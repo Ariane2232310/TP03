@@ -149,7 +149,7 @@ label
     background-color: #2A3B7A;  
 }
 
-#bouton
+.bouton
 { 
     display: flex;
     flex-direction: row;
@@ -159,7 +159,7 @@ label
     width: 247px;
     height: 77px;
     justify-content: center;
-    vertical-align: middle;
+    text-align: center;
 }
 
 h2
@@ -176,3 +176,4 @@ h3
 {
     justify-content: center;
 }
+
