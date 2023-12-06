@@ -178,16 +178,16 @@
             <div class="ligne">
                 <label for="Question">Si oui, ont-ils déjà été en contact avec d’autres animaux ?</label>
                 <div class="champs-texte">
-                    <div >
-                        <input type="text" name="Commentaires">
+                    <div>
+                        <input type="text" id="Commentaire" name="Commentaires">
                     </div>
                 </div>
             </div>
             <div class="ligne">
                 <label for="Question">Habitez-vous à proximité d’un parc à chien ou d’un espace vert ?</label>
                 <div class="champs-texte">
-                    <div >
-                        <input type="text" name="Commentaires">
+                    <div>
+                        <input type="text" id="Commentaire" name="Commentaires">
                     </div>
                 </div>
             </div>
@@ -196,14 +196,14 @@
         <fieldset class="form-flex">
             <legend>Renseignements supplémentaires</legend>
             <label for="Question"> Commentaires </label>
-                <div class="ligne champs-texte">
-                    <textarea name="Commentaire" id="Commentaire" cols="80" rows="10"></textarea>
-                </div>
+            <div class="ligne champs-texte">
+                <textarea name="Commentaire" cols="80" rows="10"></textarea>
+            </div>
         </fieldset>
-        <div>
-            <div class="bouton">
-            <input type="submit" class="lien-bouton" value="Envoyer">
-        </div>
+        <div class="form-flex">
+            <div class="center">
+                <button class="bouton" type="submit">Envoie du formulaire</button>
+            </div>
         </div>
     </form>
 </body>
