@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,21 +8,22 @@
     <link rel="stylesheet" href="Style/styles.css" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=McLaren&display=swap" rel="stylesheet">
 </head>
+
 <body>
-     <!-- Header -->
-  <header>
-    <nav>
-        <div class="header">
-          <img src="Images/Logo.png" alt="Logo" width="23.5" height="62.7">
-            <div><a href="Accueil">Accueil</a></div>
-            <div><a href="À propos">À propos</a></div>
-            <div><a href="Nos animaux">Nos animaux</a></div>
-            <div><a href="Contact">Contact</a></div>
-        </div>
-    </nav>
-</header>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="header">
+                <img src="Images/Logo.png" alt="Logo" width="23.5" height="62.7">
+                <div><a href="index.html">Accueil</a></div>
+                <div><a href="apropos.html">À propos</a></div>
+                <div><a href="presentations des animaux.html">Nos animaux</a></div>
+                <div><a href="Contact.html">Contact</a></div>
+            </div>
+        </nav>
+    </header>
     <h1>Formulaire d'adoption</h1>
-<!-- Permet d'afficher le formulaire -->
+    <!-- Permet d'afficher le formulaire -->
     <form>
         <fieldset class="form-flex">
             <legend>Informations personnelles</legend>
@@ -45,7 +47,7 @@
                     <input type="text" name="NumPhone" id="NumPhone">
                 </div>
             </div>
-        </fieldset>  
+        </fieldset>
         <fieldset class="form-flex">
             <legend>Adoption de l'animal</legend>
             <div>
@@ -65,7 +67,7 @@
                     </div>
                     <div>
                         <label for="Question">Cochons d'indes</label>
-                    <input type="radio" name="Choix" value="4" id="Choix">
+                        <input type="radio" name="Choix" value="4" id="Choix">
                     </div>
                 </div>
                 <div>
@@ -89,7 +91,7 @@
                             <input type="radio" name="Choix" value="1" id="Choix7">
                         </div>
                         <div>
-                            <label for="Choix">7 mois à  4 ans </label>
+                            <label for="Choix">7 mois à 4 ans </label>
                             <input type="radio" name="Choix" value="2" id="Choix8">
                         </div>
                         <div>
@@ -98,12 +100,13 @@
                         </div>
                         <div>
                             <label for="Choix">8 ans et plus</label>
-                        <input type="radio" name="Choix" value="4" id="Choix10">
+                            <input type="radio" name="Choix" value="4" id="Choix10">
                         </div>
                     </div>
                 </div>
-                <div>
-                    <label for="Question">Un de nos animaux a-t-il attiré votre attention ? Sélectionnez son nom :</label>
+                <div class="liste-deroulante">
+                    <label for="Question">Un de nos animaux a-t-il attiré votre attention ? Sélectionnez son nom
+                        :</label>
                     <select name="Noms" id="Noms">
                         <option value="Maxi">Maxi</option>
                         <option value="Craquotte">Craquotte</option>
@@ -130,77 +133,79 @@
                         <option value="Cookie">Cookie</option>
                     </select>
                 </div>
-            </fieldset> 
-            <fieldset class="form-flex">
-                <legend>Renseignements sur vos animaux</legend>
-                <div>
-                    <label for="Question">Avez-vous d’autres animaux ?</label>
-                    <div class="Reponse">
-                        <div>
-                            <label for="Choix">Oui</label>
-                            <input type="radio" name="Choix" value="1" id="Choix11">
-                        </div>
-                        <div>
-                            <label for="Question">Non</label>
-                            <input type="radio" name="Choix" value="2" id="Choix12">
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <label for="Question">Si oui, est-ce qu’ils sont stérilisés ?</label>
-                    <div class="Reponse">
-                        <div>
-                            <label for="Choix">Oui</label>
-                            <input type="radio" name="Choix" value="1" id="Choix13">
-                        </div>
-                        <div>
-                            <label for="Question">Non</label>
-                            <input type="radio" name="Choix" value="2" id="Choix14">
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <label for="Question">Si oui, est-ce qu’ils sont stérilisés ?</label>
-                    <div class="Reponse">
-                        <div>
-                            <label for="Choix">Oui</label>
-                            <input type="radio" name="Choix" value="1" id="Choix13">
-                        </div>
-                        <div>
-                            <label for="Question">Non</label>
-                            <input type="radio" name="Choix" value="2" id="Choix14">
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <label for="Question">Si oui, ont-ils déjà été en contact avec d’autres animaux ?</label>
+        </fieldset>
+        <fieldset class="form-flex">
+            <legend>Renseignements sur vos animaux</legend>
+            <div class="ligne">
+                <label for="Question">Avez-vous d’autres animaux ?</label>
+                <div class="Reponse">
                     <div>
-                        <div>
-                            <input type="text" name="Commentaires">
-                        </div>
+                        <label for="Choix">Oui</label>
+                        <input type="radio" name="Choix" value="1" id="Choix11">
                     </div>
-                </div>
-                <div>
-                    <label for="Question">Habitez-vous à proximité d’un parc à chien ou d’un espace vert ?</label>
                     <div>
-                        <div class="form-lign">
-                            <input type="text" name="Commentaires">
-                        </div>
+                        <label for="Question">Non</label>
+                        <input type="radio" name="Choix" value="2" id="Choix12">
                     </div>
                 </div>
-                <div>
-            </fieldset>
-            <fieldset class="form-flex">
-                <legend>Renseignements supplémentaires</legend>      
-            <label for="Question"> Commentaires </label>
+            </div>
+            <div class="ligne">
+                <label for="Question">Si oui, est-ce qu’ils sont stérilisés ?</label>
+                <div class="Reponse">
+                    <div>
+                        <label for="Choix">Oui</label>
+                        <input type="radio" name="Choix" value="1" id="Choix13">
+                    </div>
+                    <div>
+                        <label for="Question">Non</label>
+                        <input type="radio" name="Choix" value="2" id="Choix14">
+                    </div>
+                </div>
+            </div>
+            <div class="ligne">
+                <label for="Question">Si oui, est-ce qu’ils sont stérilisés ?</label>
+                <div class="Reponse">
+                    <div>
+                        <label for="Choix">Oui</label>
+                        <input type="radio" name="Choix" value="1" id="Choix13">
+                    </div>
+                    <div>
+                        <label for="Question">Non</label>
+                        <input type="radio" name="Choix" value="2" id="Choix14">
+                    </div>
+                </div>
+            </div>
+            <div class="ligne">
+                <label for="Question">Si oui, ont-ils déjà été en contact avec d’autres animaux ?</label>
+                <div class="champs-texte">
+                    <div >
+                        <input type="text" name="Commentaires">
+                    </div>
+                </div>
+            </div>
+            <div class="ligne">
+                <label for="Question">Habitez-vous à proximité d’un parc à chien ou d’un espace vert ?</label>
+                <div class="champs-texte">
+                    <div >
+                        <input type="text" name="Commentaires">
+                    </div>
+                </div>
+            </div>
             <div>
-                <div>
+        </fieldset>
+        <fieldset class="form-flex">
+            <legend>Renseignements supplémentaires</legend>
+            <label for="Question"> Commentaires </label>
+                <div class="ligne champs-texte">
                     <textarea name="Commentaire" id="Commentaire" cols="80" rows="10"></textarea>
-                </div>    
-            </fieldset>
+                </div>
+        </fieldset>
         <div>
-            <input type="submit" value="Envoie du formulaire">
-        </div>  
+            <div class="bouton">
+            <input type="submit" class="lien-bouton" value="Envoyer">
+        </div>
+        </div>
     </form>
 </body>
+
 </html>
