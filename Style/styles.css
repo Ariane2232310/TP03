@@ -3,12 +3,33 @@
     display: flex;
     flex-direction: row;
     background-color: #2A3B7A;
+    justify-content: space-between;
+    
+}
+
+.header > div
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 60px;
+    gap: 20px;
+}
+
+a
+{
+    color: white;
+    font-size: 20px;
 }
 
 body
 {
     background-color: #c1dff0;
     font-family: 'McLaren', sans-serif;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .flex-contenant
