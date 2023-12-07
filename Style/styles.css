@@ -178,7 +178,12 @@ h3
 
 .Video
 {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    padding-top: 20px;
     justify-content: center;
+
 }
 
 .champs-texte
