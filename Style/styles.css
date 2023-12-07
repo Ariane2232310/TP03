@@ -17,6 +17,11 @@
     gap: 20px;
 }
 
+.logo
+{
+    margin-bottom: 1%;
+}
+
 a
 {
     color: white;
@@ -171,7 +176,9 @@ label
 {
     display: flex;
     flex-direction: row;
-    background-color: #2A3B7A;  
+    background-color: #2A3B7A; 
+    justify-content: space-between;
+
 }
 
 .bouton
