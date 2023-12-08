@@ -143,6 +143,16 @@ h1
     width: 100%;
 }
 
+.espace
+{
+    padding-left: 600px;
+}
+
+.espace-tel
+{
+    padding-left: 470px;  
+}
+
 .ligne{
     width: 100%;
 }
