@@ -35,6 +35,7 @@ body
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
+    margin-bottom: 0px;
 }
 
 .flex-contenant
@@ -172,14 +173,7 @@ label
     height: 36px;
 }
 
-.Footer
-{
-    display: flex;
-    flex-direction: row;
-    background-color: #2A3B7A; 
-    justify-content: space-between;
 
-}
 
 .bouton
 { 
@@ -272,4 +266,57 @@ h3
     width: 164.84px;
     height: 211px;
     padding-top: 40px;
+}
+
+
+.Footer
+{
+    display: flex;
+    flex-direction: row;
+    background-color: #2A3B7A; 
+    justify-content: space-between;
+
+}
+.Footer > div
+{
+    justify-content: center;
+    margin: auto 20px 5px 20px;
+}
+.Reseaux
+{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.Reseaux > div
+{
+    justify-content: center;
+    margin: 5px 20px 5px 5px;
+}
+
+.ligne-information img
+{
+ display: inline-block;
+ vertical-align: sub;
+}
+.ligne-information span
+{
+ color: white;
+ padding-left: 15px;
+}
+
+.informations > div
+{
+    padding-bottom: 30px;
+}
+
+.Horaire
+{
+    color : white;
+}
+
+.Horaire > div
+{
+    text-align: center;
+    margin: 1px;
 }
