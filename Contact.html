@@ -27,8 +27,10 @@
     <h1>Formulaire d'adoption</h1>
     <!-- Permet d'afficher le formulaire -->
     <form>
+    <!-- Permet d'afficher la section information personnelles -->
         <fieldset class="form-flex">
             <legend>Informations personnelles</legend>
+    <!-- Permet d'afficher les champs de textes -->
             <div class="form-ligne">
                 <div>
                     <label for="firstname">Prénom :</label>
@@ -39,6 +41,7 @@
                     <input type="text" name="lastname" id="lastname">
                 </div>
             </div>
+            <!-- Permet d'afficher les champs de textes -->
             <div class="form-ligne">
                 <div>
                     <label for="email">Courriel :</label>
@@ -50,10 +53,12 @@
                 </div>
             </div>
         </fieldset>
+        <!-- Permet d'afficher la section adoption de l'animal -->
         <fieldset class="form-flex">
             <legend>Adoption de l'animal</legend>
             <div>
                 <label for="Question">Quel animal désirez-vous adopter ?</label>
+        <!-- Permet d'afficher les choix des radios boutons -->
                 <div class="Reponse">
                     <div>
                         <label for="Choix">Chat</label>
@@ -74,6 +79,7 @@
                 </div>
                 <div>
                     <label for="Question">Désirez-vous un mâle ou une femmelle ?</label>
+                <!-- Permet d'afficher les choix des radios boutons -->
                     <div class="Reponse">
                         <div>
                             <label for="Choix">Male</label>
@@ -87,6 +93,7 @@
                 </div>
                 <div>
                     <label for="Question">Sélectionnez la tranche d’âge de l’animal :</label>
+                <!-- Permet d'afficher les choix des radios boutons -->
                     <div class="Reponse">
                         <div>
                             <label for="Choix">6 mois et moins</label>
@@ -107,8 +114,8 @@
                     </div>
                 </div>
                 <div class="liste-deroulante">
-                    <label for="Question">Un de nos animaux a-t-il attiré votre attention ? Sélectionnez son nom
-                        :</label>
+                    <label for="Question">Un de nos animaux a-t-il attiré votre attention ? Sélectionnez son nom:</label>
+                    <!-- Permet d'afficher les choix de la liste deroulante -->
                     <select name="Noms" id="Noms">
                         <option value="Maxi">Maxi</option>
                         <option value="Craquotte">Craquotte</option>
@@ -140,6 +147,7 @@
             <legend>Renseignements sur vos animaux</legend>
             <div class="ligne">
                 <label for="Question">Avez-vous d’autres animaux ?</label>
+                <!-- Permet d'afficher les choix des radios boutons -->
                 <div class="Reponse">
                     <div>
                         <label for="Choix">Oui</label>
@@ -153,6 +161,7 @@
             </div>
             <div class="ligne">
                 <label for="Question">Si oui, est-ce qu’ils sont stérilisés ?</label>
+                <!-- Permet d'afficher les choix des radios boutons -->
                 <div class="Reponse">
                     <div>
                         <label for="Choix">Oui</label>
@@ -166,6 +175,7 @@
             </div>
             <div class="ligne">
                 <label for="Question">Si oui, est-ce qu’ils sont stérilisés ?</label>
+                <!-- Permet d'afficher les choix des radios boutons -->
                 <div class="Reponse">
                     <div>
                         <label for="Choix">Oui</label>
@@ -179,6 +189,7 @@
             </div>
             <div class="ligne">
                 <label for="Question">Si oui, ont-ils déjà été en contact avec d’autres animaux ?</label>
+            <!-- Permet d'afficher le champ de texte -->
                 <div class="champs-texte">
                     <div>
                         <input type="text" id="Commentaire" name="Commentaires">
@@ -187,6 +198,7 @@
             </div>
             <div class="ligne">
                 <label for="Question">Habitez-vous à proximité d’un parc à chien ou d’un espace vert ?</label>
+                <!-- Permet d'afficher le champ de texte -->
                 <div class="champs-texte">
                     <div>
                         <input type="text" id="Commentaire" name="Commentaires">
@@ -197,12 +209,14 @@
         </fieldset>
         <fieldset class="form-flex">
             <legend>Renseignements supplémentaires</legend>
+            <!-- Permet d'afficher le champ de texte du commentaire -->
             <label for="Question"> Commentaires </label>
             <div class="ligne champs-texte">
                 <textarea name="Commentaire" cols="80" rows="10"></textarea>
             </div>
         </fieldset>
         <div class="form-flex">
+            <!-- Permet d'afficher le bouton du formulaire -->
             <div class="center">
                 <button class="bouton" type="submit">Envoie du formulaire</button>
             </div>
