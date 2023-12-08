@@ -42,6 +42,11 @@ body
     text-decoration: none;
 }
 
+.texte-centre
+{
+    text-align: center;
+}
+
 .flex-contenant
 {
     display: flex;
