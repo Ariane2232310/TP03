@@ -1,3 +1,4 @@
+/* Affichage du header */
 .header
 { 
     display: flex;
@@ -5,7 +6,7 @@
     background-color: #2A3B7A;
     justify-content: space-between;
 }
-
+/* Ajustement des differentes parties du header */
 .header > div
 {
     display: flex;
@@ -15,22 +16,24 @@
     margin-right: 60px;
     gap: 20px;
 }
-
+/* Ajustement de la taille du logo du header */
 .logo
 {
     margin-bottom: 1%;
 }
+/* Changement des couleurs du liens du header */
 .Liens
 {
     color: white;
     font-size: 20px;
 }
 
+/* Ajustement de tout les liens dans la page */
 a
 {
     text-decoration: none;
 }
-
+/* Ajustement pour le corps des pages */
 body
 {
     background-color: #c1dff0;
@@ -41,16 +44,17 @@ body
     margin-bottom: 0px;
     text-decoration: none;
 }
-
+/* Permet de centrer les textes de la page a propos */
 .texte-centre
 {
     text-align: center;
 }
 
+/*Les animaux*/
+/* Ajustement du flexbox de la page des presentations des animaux*/
 .flex-contenant
 {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 
@@ -60,25 +64,25 @@ body
     margin: auto;
 
 }
-
+/* Ajustement du flexbox pour l'espace entre les photos */
 .flex-contenant > div
 {
     justify-content: center;
     margin: 5px 20px 5px 5px;
 }
-
+/* Arrondie et choix de couleur pour les descriptions sur les photos */
 .Pensionnaires
 {
     border-radius: 21px 21px 21px 21px;
     background-color: #DFBC85;
 }
-
+/* Ajustement de l'emplacement de l'age dans la description */
 .Pensionnaires .age
 {
     float: right;
     padding-right: 25px;
 }
-
+/* Ajustement de l'emplacement du texte dans la description */
 .Pensionnaires .Descriptions
 {
   padding-left: 50px;
@@ -87,7 +91,7 @@ body
   padding-bottom: 6px;
   margin-bottom: 0px;
 }
-
+/* Ajustement des criteres speciaux de la page des presentations des animaux*/
 .CriteresSpeciaux
 {
     text-align: left;
@@ -95,14 +99,14 @@ body
     margin: 0px;
     padding-left: 10px;
 }
-
+/* Ajustement du nom des animaux */
 .NomPensionnaires
 {
     display: block;
     text-align: center;
     width: 100%;
 }
-
+/* Ajustement des images de la page des presentations*/
 .Images
 {
     border-radius: 21px 21px 0px 0px;
@@ -110,11 +114,8 @@ body
     height: 350px;
 }
 
-h1
-{
-    text-align: center;
-}
-
+/* Formulaire*/
+/* Ajustement de l'emplacement du formulaire, des espaces*/
 .form-flex
 {
     display: flex;
@@ -126,7 +127,7 @@ h1
     max-width: 1550px;
     margin: auto;
 }
-
+/* Ajustement des reponses du formulaire*/
 .Reponse
 {
     display: flex;
@@ -137,7 +138,8 @@ h1
     padding-left: 0px;
 }
 
-
+/* Section des informations personnelles du formulaire*/
+/* Ajustement de la section des informations personnelles du formulaire*/
 .form-ligne
 {
     display: flex;
@@ -147,21 +149,48 @@ h1
     padding-top: 20px;
     width: 100%;
 }
-
+/* Ajout d'espace devant Nom dans la section informations personnelles du formulaire*/
 .espace
 {
     padding-left: 600px;
 }
-
+/* Ajout d'espace devant Telephone dans la section informations personnelles du formulaire*/
 .espace-tel
 {
     padding-left: 470px;  
 }
+/* Ajustement de la taille du champ de texte prenom*/
+#firstname
+{
+    width: 175px;
+    height: 36px;
+}
+/* Ajustement de la taille du champ de texte nom de famille */
+#lastname
+{
+    width: 175px;
+    height: 36px;
+}
+/* Ajustement de la taille du champ de texte telephone */
+#NumPhone
+{
+    width: 175px;
+    height: 36px;
+}
+/* Ajustement de la taille du champ de texte email */
+#email
+{
+    width: 329px;
+    height: 36px;
+}
 
+
+/* Section renseignement sur vos animaux*/
+/* Ajustement de l'espace sur les deux dernieres questions de la section renseignement sur vos animaux*/
 .ligne{
     width: 100%;
 }
-
+/* Ajustement de l'espace et de la police d'ecriture pour les labels de la section renseignement sur vos animaux*/
 label 
 {
     font-size: 14px;
@@ -170,53 +199,23 @@ label
 
 }
 
-#firstname
+/* Ajustement de l'alignement des titres*/
+h1
 {
-    width: 175px;
-    height: 36px;
+    text-align: center;
 }
-#lastname
-{
-    width: 175px;
-    height: 36px;
-}
-#NumPhone
-{
-    width: 175px;
-    height: 36px;
-}
-
-#email
-{
-    width: 329px;
-    height: 36px;
-}
-
-
-
-.bouton
-{ 
-    border-radius: 15px;
-    background-color: #DFBC85;
-    padding: 30px 60px;
-    font-size: 25px;
-    font-family: 'McLaren', sans-serif;
-}
-.bouton:hover {
-    background-color: #e2b670;
-    color: white;
-  }
-
+/* Ajustement de l'alignement des titres*/
 h2
 {
     text-align: center;
 }
-
+/* Ajustement de l'alignement des titres*/
 h3
 {
     text-align: center;
 }
 
+/* Ajustement de l'emplacement des videos*/
 .Video
 {
     display: flex;
@@ -226,7 +225,7 @@ h3
     justify-content: center;
 
 }
-
+/* Ajustement de la taille des champs de textes des commentaires a la fin du formulaire */
 .champs-texte
 {
     padding-left: 20px;
@@ -234,19 +233,29 @@ h3
     padding-bottom: 20px;
 }
 
-#Commentaire
+/* Ajustement des boutons de la page index et contact*/
+.bouton
+{ 
+    border-radius: 15px;
+    background-color: #DFBC85;
+    padding: 30px 60px;
+    font-size: 25px;
+    font-family: 'McLaren', sans-serif;
+}
+/* Ajustement de la couleur par dessus le bouton*/
+.bouton:hover 
 {
-
-    width: 329px;
-    height: 36px;
+    background-color: #e2b670;
+    color: white;
 }
 
 
+/* Ajustement de l'emplacement du bouton envoyer */
 .center
 {
     margin: 0 auto;
 }
-
+/* Ajustement du bouton nos animaux sur la page */
 .div-nos-animaux
 {
     display: flex;
@@ -255,30 +264,36 @@ h3
     height: 350px;
     width: 100%;
 }
+/* Ajustement du bouton nos animaux sur la page */
 .div-nos-animaux button
 {
  display: block;
  margin: 0 auto;
 }
+/* Ajustement du bouton nos animaux sur la page */
 .div-nos-animaux > div
 {
  width: 100%;
 }
+/* Ajustement du bouton nos animaux sur la page */
 .div-nos-animaux > div:nth-child(1)
 {
     display: flex;
     justify-content: left;
 }
+/* Ajustement du bouton nos animaux sur la page */
 .div-nos-animaux > div:nth-child(2)
 {
     margin: auto;
 }
+/* Ajustement du bouton nos animaux sur la page */
 .div-nos-animaux > div:nth-child(3)
 {
     display: flex;
     justify-content: right;
 }
 
+/* Ajustement des pattes de l'index*/
 .Pattes
 {
 
@@ -287,7 +302,7 @@ h3
     padding-top: 40px;
 }
 
-
+ /* Affichage du Footer et ajustement flexbox*/
 .Footer
 {
     display: flex;
@@ -296,44 +311,47 @@ h3
     justify-content: space-between;
 
 }
+/* Ajustement des differents bloc du footer */*/
 .Footer > div
 {
     justify-content: center;
     margin: auto 20px 5px 20px;
 }
+/* Ajustement du bloc reseaux sociaux */
 .Reseaux
 {
     display: flex;
     padding-bottom: 20px;
 }
-
+/* Ajustement de l'emplacement des icones de reseaux sociaux*/
 .Reseaux > div
 {
     justify-content: center;
     margin: 5px 20px 5px 5px;
 }
-
+/* Ajustement des icones du bloc des informations du refuge*/
 .ligne-information img
 {
  display: inline-block;
  vertical-align: sub;
 }
+/* Ajustement du texte et de l'espace du bloc des informations du refuge*/
 .ligne-information span
 {
  color: white;
  padding-left: 15px;
 }
-
+/* Ajustement de l'espace en dessous de la partie informations */
 .informations > div
 {
     padding-bottom: 30px;
 }
-
+/* Ajustement de la couleur du texte des horaires */
 .Horaire
 {
     color : white;
 }
-
+/* Ajustement de l'alignement et de l'espace dans l'horaire */
 .Horaire > div
 {
     text-align: center;
